@@ -13,4 +13,7 @@
   .when "/home",
     templateUrl: 'assets/templates/home/index.html'
 
+  .when "/recipe",
+    templateUrl: 'assets/templates/recipes/index.html'
+
   .otherwise redirectTo: "/home"
