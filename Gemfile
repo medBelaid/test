@@ -14,8 +14,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+source "https://rails-assets.org" do
+  gem "rails-assets-angular-devise"
+end
 
 gem 'haml-rails'
+gem 'bootstrap-sass', '~> 3.3.5'
 gem 'coffee-rails'
 gem 'devise'       # authentification
 gem 'angular-rails-templates'
